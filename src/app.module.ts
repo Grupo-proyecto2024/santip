@@ -10,10 +10,10 @@ import { Usuarios } from './users/entities/user.entity';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
-      port: 3306,
+      port: 3307,
       username: 'root',
       password: '',
-      database: 'clientes',
+      database: 'tienda',
       entities:[Usuarios],
       synchronize: true,
 
